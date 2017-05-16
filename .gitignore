@@ -1,7 +1,5 @@
 wp-admin
-wp-content/themes/twentyfifteen
-wp-content/themes/twentysixteen
-wp-content/themes/twentyseventeen
+wp-content
 wp-includes
 index.php
 license.txt
@@ -20,3 +18,5 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
+.DS_Store
+node_modules
