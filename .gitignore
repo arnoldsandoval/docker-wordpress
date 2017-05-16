@@ -1,7 +1,7 @@
 wp-admin
 wp-content
 wp-includes
-index.php
+/index.php
 license.txt
 readme.html
 wp-activate.php

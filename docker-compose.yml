@@ -16,3 +16,9 @@ services:
       - wpdb:mysql
     environment:
       WORDPRESS_DB_PASSWORD: pass
+  composer:
+    restart: 'no'
+    image: composer/composer:php7
+    command: install
+    volumes:
+      - ./:/var/www/html
